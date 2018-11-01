@@ -472,7 +472,6 @@ client.on('message' , message => {
     }
     if(!args[1]) {
       message.channel.send("قم بمنشنة الرتبة | *bcrole @everyone رساله");
-        return;
     }
 
       if(args[0] == "@everyone") {
